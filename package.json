@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node api.js && node index.js",
-    "start:dev": "node api.js && nodemon index.js"
+    "dev": "node init && vite",
+    "build": "node init && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
