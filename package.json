@@ -2,10 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "node api.js && node index.js",
-    "start:dev": "node api.js && nodemon index.js"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
